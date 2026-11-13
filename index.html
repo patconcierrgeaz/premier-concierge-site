@@ -1,1 +1,651 @@
-premier concierge-your home our priority your peace of mind 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Premier Concierge | Luxury Concierge Services</title>
+
+  <meta name="description"
+        content="Premier Concierge provides personalized luxury concierge services, home management, lifestyle assistance, and discreet client support throughout the Phoenix metropolitan area.">
+
+  <style>
+    :root {
+      --black: #080808;
+      --gold: #D4AF37;
+      --light-gold: #F1D98A;
+      --white: #FFFFFF;
+      --gray: #C8C8C8;
+      --dark-gray: #171717;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--black);
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      padding: 55px 20px 45px;
+      border-bottom: 1px solid var(--gold);
+      background: linear-gradient(
+        180deg,
+        #17130A 0%,
+        #080808 100%
+      );
+    }
+
+    .logo {
+      display: block;
+      width: 180px;
+      max-width: 65%;
+      height: auto;
+      margin: 0 auto 25px;
+    }
+
+    .company-name {
+      color: var(--gold);
+      font-size: clamp(32px, 7vw, 52px);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin: 15px 0;
+    }
+
+    .tagline {
+      color: var(--light-gold);
+      font-size: 19px;
+      font-style: italic;
+      margin: 15px auto;
+      max-width: 650px;
+    }
+
+    .hero-description {
+      color: var(--gray);
+      max-width: 700px;
+      margin: 25px auto;
+      font-size: 18px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 18px;
+      background: #111111;
+      border-bottom: 1px solid #493C1B;
+    }
+
+    nav a {
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: var(--white);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      padding: 55px 10px;
+      border-bottom: 1px solid #333333;
+    }
+
+    h2 {
+      color: var(--gold);
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      color: var(--light-gold);
+      font-size: 21px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 17px;
+    }
+
+    .intro {
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px, 1fr)
+      );
+      gap: 22px;
+      margin-top: 35px;
+    }
+
+    .service-card {
+      background: var(--dark-gray);
+      border: 1px solid #5B4A20;
+      border-radius: 8px;
+      padding: 25px;
+    }
+
+    .service-card p {
+      color: var(--gray);
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+
+    .privacy-box {
+      background: #14120D;
+      border: 1px solid var(--gold);
+      border-radius: 8px;
+      padding: 30px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .privacy-box p {
+      color: #E2E2E2;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact-name {
+      color: var(--light-gold);
+      font-size: 23px;
+      margin-bottom: 5px;
+    }
+
+    .contact-title {
+      color: var(--gray);
+      margin-top: 0;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: #080808;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      padding: 14px 25px;
+      border-radius: 5px;
+      min-width: 160px;
+      text-align: center;
+    }
+
+    .button:hover {
+      background: var(--light-gold);
+    }
+
+    .button-secondary {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+    }
+
+    .button-secondary:hover {
+      background: var(--gold);
+      color: var(--black);
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      color: var(--gray);
+      background: #101010;
+      font-size: 14px;
+    }
+
+    footer strong {
+      color: var(--gold);
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 40px 15px;
+      }
+
+      section {
+        padding: 40px 5px;
+      }
+
+      .company-name {
+        letter-spacing: 1px;
+      }
+
+      .tagline {
+        font-size: 17px;
+      }
+
+      .button {
+        width: 100%;
+        max-width: 320px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--
+    ORIGINAL PREMIER CONCIERGE LOGO
+
+    Upload the original gold intertwined PC logo
+    with the curved swoop beneath the letters
+    to this repository as:
+
+    pc-logo.png
+
+    Do not substitute or redesign the logo.
+  -->
+
+  <header>
+
+    <img
+      src="pc-logo.png"
+      alt="Original Premier Concierge gold intertwined PC monogram with curved swoop"
+      class="logo"
+      onerror="this.style.display='none'"
+    >
+
+    <h1 class="company-name">
+      Premier Concierge
+    </h1>
+
+    <p class="tagline">
+      Your home, our priority, your peace of mind.
+    </p>
+
+    <p class="hero-description">
+      Exceptional Personal Service.
+      Thoughtful Attention to Every Detail.
+      A Higher Standard of Luxury Living.
+    </p>
+
+    <div class="button-group">
+      <a class="button" href="#services">
+        Explore Our Services
+      </a>
+
+      <a class="button button-secondary" href="#contact">
+        Contact Premier Concierge
+      </a>
+    </div>
+
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+      <h2>A Higher Standard of Personal Service</h2>
+
+      <div class="intro">
+
+        <p>
+          Welcome to Premier Concierge, where exceptional
+          service meets personalized attention.
+        </p>
+
+        <p>
+          We provide luxury concierge and lifestyle
+          assistance designed around the unique needs
+          of homeowners, busy professionals, seasonal
+          residents, and individuals who value their
+          time, comfort, and peace of mind.
+        </p>
+
+        <p>
+          Whether preparing your residence for arrival,
+          coordinating trusted service professionals,
+          arranging special experiences, or managing
+          everyday requests, Premier Concierge serves
+          as your dedicated point of contact.
+        </p>
+
+        <p>
+          Our approach is built upon professionalism,
+          reliability, discretion, and attention
+          to detail.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- SERVICES -->
+
+    <section id="services">
+
+      <h2>Services Tailored to Your Lifestyle</h2>
+
+      <p class="intro">
+        From everyday essentials to extraordinary
+        experiences, Premier Concierge coordinates
+        personalized services to simplify your life.
+      </p>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <h3>Home & Property Care</h3>
+          <p>
+            Scheduled home checks, property oversight,
+            mail and package collection, housekeeping
+            coordination, landscaping, pool services,
+            and home maintenance assistance.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Seasonal Home Preparation</h3>
+          <p>
+            Pre-arrival home preparation, grocery
+            stocking, fresh flowers, temperature
+            adjustments, housekeeping arrangements,
+            and departure coordination.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Personal Concierge Assistance</h3>
+          <p>
+            Errand coordination, shopping assistance,
+            package shipping, household appointments,
+            personal requests, and everyday
+            lifestyle support.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Transportation & Travel</h3>
+          <p>
+            Airport transportation coordination,
+            private driver arrangements, luxury
+            transportation referrals, hotel
+            reservations, and travel planning
+            assistance.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Dining & Private Experiences</h3>
+          <p>
+            Restaurant reservation assistance,
+            private chef coordination, catering,
+            special occasions, and personalized
+            dining experiences.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Events & Entertainment</h3>
+          <p>
+            Private event coordination, entertainment
+            arrangements, sporting events, concerts,
+            cultural experiences, and special
+            occasion planning.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Luxury Shopping & Lifestyle</h3>
+          <p>
+            Personal shopping coordination,
+            luxury retail referrals, specialty
+            services, art and furnishings,
+            and customized lifestyle assistance.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Health, Wellness & Family</h3>
+          <p>
+            Appointment coordination, wellness
+            referrals, pet care arrangements,
+            family support services, and
+            assistance connecting with local
+            professionals.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <h3>Professional Vendor Coordination</h3>
+          <p>
+            Coordination of independent service
+            providers for household, property,
+            transportation, and lifestyle needs,
+            with an emphasis on professionalism
+            and dependable service.
+          </p>
+        </div>
+
+      </div>
+
+      <p class="intro" style="margin-top:35px;">
+        Every request is unique. Additional services
+        may be arranged through a personalized
+        consultation, subject to availability.
+      </p>
+
+    </section>
+
+    <!-- PRIVACY -->
+
+    <section id="privacy">
+
+      <h2>Privacy, Discretion & Confidentiality</h2>
+
+      <div class="privacy-box">
+
+        <h3>
+          Your Privacy Is Our Priority
+        </h3>
+
+        <p>
+          At Premier Concierge, we recognize that
+          exceptional personal service requires
+          trust, discretion, and respect for
+          each client's privacy.
+        </p>
+
+        <p>
+          We are committed to treating personal
+          information, household details, schedules,
+          preferences, and lifestyle arrangements
+          with professionalism and confidentiality.
+        </p>
+
+        <p>
+          Client information is handled with care
+          and shared with service providers only
+          when reasonably necessary to coordinate
+          requested services or otherwise
+          authorized or required by law.
+        </p>
+
+        <p>
+          We seek to work with professional
+          service providers who understand the
+          importance of confidentiality,
+          appropriate conduct, and respect
+          for our clients' homes and privacy.
+        </p>
+
+        <p>
+          Our goal is to provide personalized
+          assistance while protecting the
+          confidence and peace of mind
+          of those we serve.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+      <h2>Experience Premier Concierge</h2>
+
+      <p>
+        Discover the convenience of having
+        a dedicated concierge who understands
+        your priorities.
+      </p>
+
+      <p class="contact-name">
+        Timothy Cole
+      </p>
+
+      <p class="contact-title">
+        Founder | Premier Concierge
+      </p>
+
+      <p>
+        Serving Scottsdale, Paradise Valley,
+        Phoenix, and surrounding Arizona communities.
+      </p>
+
+      <div class="button-group">
+
+        <!-- Update this phone number when ready -->
+        <a class="button"
+           href="tel:+19518076851">
+          Call Premier Concierge
+        </a>
+
+        <!-- Replace with your confirmed business email -->
+        <a class="button"
+           href="mailto:pattimten10@gmail.com">
+          Email Premier Concierge
+        </a>
+
+        <a class="button button-secondary"
+           href="#"
+           onclick="downloadContact(); return false;">
+          Save Contact
+        </a>
+
+      </div>
+
+      <p style="color:#C8C8C8; margin-top:30px;">
+        Personalized consultations are available
+        by appointment.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      <strong>PREMIER CONCIERGE</strong>
+    </p>
+
+    <p>
+      Your home, our priority, your peace of mind.
+    </p>
+
+    <p>
+      &copy; <span id="year"></span>
+      Premier Concierge.
+      All rights reserved.
+    </p>
+
+    <p>
+      Luxury Concierge & Lifestyle Services
+      | Arizona
+    </p>
+
+  </footer>
+
+  <script>
+
+    // Automatically display the current year.
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+
+    // Download a contact card to the visitor's device.
+    function downloadContact() {
+
+      const contact = [
+        "BEGIN:VCARD",
+        "VERSION:3.0",
+        "N:Cole;Timothy;;;",
+        "FN:Timothy Cole",
+        "ORG:Premier Concierge",
+        "TITLE:Founder",
+        "TEL;TYPE=WORK,VOICE:+19518076851",
+        "EMAIL;TYPE=WORK:pattimten10@gmail.com",
+        "NOTE:Your home, our priority, your peace of mind.",
+        "END:VCARD"
+      ].join("\r\n");
+
+      const blob = new Blob(
+        [contact],
+        { type: "text/vcard;charset=utf-8" }
+      );
+
+      const url = URL.createObjectURL(blob);
+
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "Premier-Concierge-Contact.vcf";
+
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      setTimeout(function() {
+        URL.revokeObjectURL(url);
+      }, 1000);
+    }
+
+  </script>
+
+</body>
+</html>
